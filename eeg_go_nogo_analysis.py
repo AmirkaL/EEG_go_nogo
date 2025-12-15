@@ -34,9 +34,9 @@ HIGH_MOTIVATION = ['participant1', 'participant4', 'participant7', 'participant8
 LOW_MOTIVATION = ['participant2', 'participant3', 'participant5', 'participant6']
 
 # Какие электроды использовать для анализа
-# В идеале хотелось бы все пять, но у нас могут быть не все
+# В идеале хотелось все 5, но у нас только 3
 ELECTRODES_PREFERRED = ['Fz', 'FCz', 'Cz', 'CPz', 'Pz']
-# Если основных нет, используем хотя бы эти три
+# Используем какие есть
 ELECTRODES_ALTERNATIVE = ['Fz', 'Cz', 'Pz']
 
 # Временные окна для поиска компонентов (в миллисекундах)
@@ -1118,4 +1118,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
